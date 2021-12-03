@@ -111,11 +111,11 @@ let landPage = document.querySelector(".landing-page");
 
 // Get Array Of Images
 let imgArray = [
-  "background-one.jpg",
-  "background-two.jpg",
-  "background-three.jpg",
-  "background-four.jpg",
-  "background-five.jpg"
+  "background-one.png",
+  "background-two.png",
+  "background-three.png",
+  "background-four.png",
+  "background-five.png"
 ];
 
 // Function To Random Imgs
@@ -130,7 +130,7 @@ function randomizeImage() {
 
       landPage.style.backgroundImage =
         'url("../img/' + imgArray[randomNumber] + '")';
-    }, 3000);
+    }, 5000);
   }
 }
 randomizeImage();
