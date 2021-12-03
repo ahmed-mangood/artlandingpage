@@ -173,7 +173,7 @@ body {
 /* Start Landing Page */
 .landing-page {
   min-height: 100vh;
-  background-image: url("../img/background-one.png");
+  background-image: url("../images/background-one.png");
   background-size: cover;
   transition: 4s;
   position: relative;
