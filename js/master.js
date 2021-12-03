@@ -129,7 +129,7 @@ function randomizeImage() {
       // Chanage Background Image Url
 
       landPage.style.backgroundImage =
-        'url("../img/' + imgArray[randomNumber] + '")';
+        'url("/img/' + imgArray[randomNumber] + '")';
     }, 5000);
   }
 }
