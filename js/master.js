@@ -130,7 +130,7 @@ function randomizeImage() {
 
       landPage.style.backgroundImage =
         'url("images/' + imgArray[randomNumber] + '")';
-    }, 5000);
+    }, 9000);
   }
 }
 randomizeImage();
